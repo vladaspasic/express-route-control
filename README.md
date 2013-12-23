@@ -22,7 +22,7 @@ routes(app, {
 ```
 
 =====================
-_TODO's add more options._
+_TODO's add more options and a view folder to each module._
 
 and a folder structure like this: 
 
