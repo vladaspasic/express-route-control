@@ -101,6 +101,41 @@ exports.routes = {
 
 As you can see all of these formats can create the same path handling, it can all depend on what do you need in this route.
 
+Context / scope of the route function is the Route object, which can help you in your handling:
+
+### Route Object
+
+#### req
+
+Type: ```Request```
+
+Original Express Request object 
+
+#### res
+
+Type: ```Response```
+
+Original Express Response object 
+
+### renderPage
+
+Type: ```Function``` Arguments: String page, Object page render context
+
+Renders the passed page with given context
+
+### render
+
+Type: ```Function``` Arguments: Object page render context
+
+Resolves the page name so it resemebles the current location of the file and action name, with given context.
+
+### renderJSON
+
+Type: ```Function``` Arguments: Object JSON response
+
+Renders a JSON object as a response
+
+
 ### Route Options
 
 #### route
