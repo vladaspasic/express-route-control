@@ -134,6 +134,7 @@ Resolves the page name so it resemebles the current location of the file and act
 Type: ```Function``` Arguments: Object JSON response
 
 Renders a JSON object as a response.
+
 =====================
 _TODO's add more options._
 
