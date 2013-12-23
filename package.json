@@ -1,0 +1,22 @@
+{
+  "name": "express-route-control",
+  "version": "1.0.0",
+  "description": "Express Route Controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vladaspasic/express-route-control.git"
+  },
+  "keywords": [
+    "Controller",
+    "Route",
+    "Express Controller"
+  ],
+  "author": "Vladimir Spasic",
+  "license": "GPL",
+  "readmeFilename": "README.md",
+  "gitHead": "d3e9a2a1b21231cd7d76f6643eed55acb936512a"
+}
