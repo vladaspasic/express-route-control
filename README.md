@@ -87,6 +87,26 @@ exports.routes = {
 
 As you can see all of these formats can create the same path handling, it can all depend on what do you need in this route.
 
+## Route Options
+
+### route
+
+Type: ```Function``` Default: Returns next()
+
+Function that takes care of the route handling, aka the Controllah.
+
+### type
+
+Type: ```String``` Default: ```get```
+
+This value is what request method do you expect. It is not case sensitive, and it can be GET, POST, PUT, DELETE
+
+### action
+
+Type: ```String``` Default: to the name of the key/exported method
+
+Defines the route name this controller should handle.
+
 ## Filters
 
 You can also add a filter to each Controller file, which will be applied to all actions contained ot that controller path. Filter is defiined like this:
