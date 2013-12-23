@@ -1,11 +1,11 @@
-## express-route-control
+# express-route-control
 =====================
 
 Express Routes Controller, using simple file and folder structure.
 
 This module takes care of your routes and can provide you with different formatting of your route controllers. You can use a plain function or an object defining your route options.
 
-### Usage
+## Usage
 
 In your app.js file you configure the router:
 
@@ -87,34 +87,34 @@ exports.routes = {
 
 As you can see all of these formats can create the same path handling, it can all depend on what do you need in this route.
 
-## Route Options
+### Route Options
 
-### route
+#### route
 
 Type: ```Function``` Default: Returns next()
 
 Function that takes care of the route handling, aka the Controllah.
 
-### type
+#### type
 
 Type: ```String``` Default: ```get```
 
 This value is what request method do you expect. It is not case sensitive, and it can be GET, POST, PUT, DELETE
 
-### action
+#### action
 
 Type: ```String``` Default: to the name of the key/exported method
 
 Defines the route name this controller should handle.
 
-### filter
+#### filter
 
 Type: ```Function``` Default: false
 
 Deifines a filter function that must be called before calling the route function.
 
 
-TODO's add parameter bindings.
+_TODO's add parameter bindings._
 
 ## Filters
 
