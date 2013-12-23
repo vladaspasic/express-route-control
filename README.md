@@ -133,11 +133,9 @@ Resolves the page name so it resemebles the current location of the file and act
 
 Type: ```Function``` Arguments: Object JSON response
 
-Renders a JSON object as a response
-
+Renders a JSON object as a response.
 =====================
-TODO's add more helpers and options.
-=====================
+_TODO's add more options._
 
 ### Route Options
 
