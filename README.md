@@ -135,6 +135,7 @@ Type: ```Function``` Arguments: Object JSON response
 
 Renders a JSON object as a response
 
+=====================
 
 ### Route Options
 
