@@ -136,7 +136,7 @@ Type: ```Function``` Arguments: Object JSON response
 Renders a JSON object as a response
 
 =====================
-TODO's add parameter bindings.
+TODO's add more helpers and options.
 =====================
 
 ### Route Options
