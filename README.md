@@ -107,6 +107,15 @@ Type: ```String``` Default: to the name of the key/exported method
 
 Defines the route name this controller should handle.
 
+### filter
+
+Type: ```Function``` Default: false
+
+Deifines a filter function that must be called before calling the route function.
+
+
+TODO's add parameter bindings.
+
 ## Filters
 
 You can also add a filter to each Controller file, which will be applied to all actions contained ot that controller path. Filter is defiined like this:
