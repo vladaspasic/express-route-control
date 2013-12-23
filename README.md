@@ -4,6 +4,18 @@ Express Routes Controller, using simple file and folder structure.
 
 This module takes care of your routes and can provide you with different formatting of your route controllers. You can use a plain function or an object defining your route options.
 
+## Installation
+
+Add this dependency iin your package.json file
+
+```javascript
+	"dependencies": {
+    	"express-route-control": "1.0.0"
+    }
+```
+
+and run ```npm install``` in your console, while in your application root folder.
+
 ## Usage
 
 In your app.js file you configure the router:
